@@ -3,3 +3,15 @@ body{
     color: greenyellow;
     font-family: 'Courier New', Courier, monospace;
 }
+
+li {
+    color: greenyellow;
+}
+
+.item {
+    color: purple;
+}
+
+.item:hover{
+    color: greenyellow;
+}
