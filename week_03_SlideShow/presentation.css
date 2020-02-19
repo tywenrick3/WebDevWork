@@ -1,0 +1,108 @@
+
+    
+    body{
+        background: rgb(70, 70, 70);
+        text-align: center;
+        color: yellow;
+        justify-content: center;
+        
+        font-family: Arial, Helvetica, sans-serif;
+    }   
+
+
+    .myHeader h4 {
+        overflow: hidden;
+        border-right: whitesmoke;
+        white-space: nowrap;
+        margin: 0 auto;
+        letter-spacing: .15em;
+        animation: typing 3.5s steps(40, end), 
+        blink-caret .75s step-end infinite;
+        
+    }
+
+    @keyframes typing {
+        from{width:0}
+        to{width:100%}
+    }
+
+    @keyframes blink-caret {
+        from, to {border-color: transparent}
+        50%{border-color: white;}
+    }
+ 
+   
+    a{
+        color: black;
+        text-decoration: double;
+    }
+    
+    a:hover{
+        color: white;
+        text-decoration:underline;
+    }
+    
+    #virgilPortrait{
+        border: 0px;
+        outline: 0px;
+        width: auto;
+        height: auto;
+    }
+
+    p {
+        color: whitesmoke;
+    }
+    
+    #virgilCoverArt{
+        border: 0px;
+        outline: 0px;
+        width: auto;
+        height: auto;
+    }
+
+    #moreCoverArt {
+        border: 0px;
+        outline: 0px;
+        width: 41%;
+        height: 41%;
+    }
+  
+    #subtext {
+        color: yellow;
+        text-decoration: line-through;
+    }
+
+    #ablohCoverArt {
+        border: 0px;
+        outline: 0px;
+        width: 42%;
+        height: 42%;
+    }
+
+    #finalCoverArt {
+        border: 0px;
+        outline: 0px;
+        width: 42%;
+        height: 42%;
+    }
+  
+    #shoe1 {
+        border: 0px;
+        outline: 0px;
+        width: 50%;
+        height: 50%;
+    }
+
+    #wallet{
+        border: 0px;
+        outline: 0px;
+        width: 50%;
+        height: 50%;
+    }
+
+    #shoe2 {
+        border: 0px;
+        outline: 0px;
+        width: 50%;
+        height: 50%;
+    }
