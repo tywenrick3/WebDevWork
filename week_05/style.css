@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+   }
+
+
+#theflex {
+    background-color: rgb(136, 255, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
