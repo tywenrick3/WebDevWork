@@ -3,10 +3,36 @@ body{
    }
 
 
-#theflex {
-    background-color: rgb(136, 255, 0);
+button {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    color: black;
+    position: relative;
+    left: 850px;
 }
 
+button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
