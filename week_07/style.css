@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(188, 246, 210);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+input.myButton{
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 100%;
+    background: white;
+    color: black;
+    border: 5px solid #e8eb3d;
+    border-radius: 10px;
+    animation-duration: 0.3s;
+}
+
+input.myButton:hover{
+    background-color: #e8eb3d;
+    color: white;
+}
+
+.description{
+    color: black;
+}
+
+#subtext{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+#wireFramePhoto{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 25%;
+}
