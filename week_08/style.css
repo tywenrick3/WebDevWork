@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(240, 240, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1%;
+}
+
+
+input.myButton {
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 100%;
+    background: white;
+    color: black;
+    border: 3px solid #fb3737;
+    border-radius: 10px;
+    animation-duration: 0.3s;
+}
+
+input.myButton:hover {
+    background-color: #fb3737;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+}
