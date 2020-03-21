@@ -6,15 +6,10 @@
     color: #80D4FF;
 }
 
-.wrapper{
-    display: flex;
-}
 
 .event{
     display: inline-flex;
     text-decoration: none;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 3%;
 }
