@@ -1,0 +1,51 @@
+.allEvents{
+    height: 100vh;
+    font-size: 62px;
+    font-family: 'Zilla Slab', serif;
+    z-index: 2;
+    color: #80D4FF;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.event{
+    display: inline-flex;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.event:hover{
+    color: #6D3EB3;
+}
+
+.eventLink::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #80D4FF;
+    transition: width .3s
+}
+
+.eventLink:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+.eventLink{
+    color: #80D4FF;
+    text-decoration: none;
+}
+
+.eventLink:hover{
+    color: #F0D06B;
+}
+
+
+
+

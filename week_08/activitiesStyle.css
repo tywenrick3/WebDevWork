@@ -1,0 +1,24 @@
+.allActivities{
+    height: 100vh;
+    font-size: 62px;
+    font-family: 'Zilla Slab', serif;
+    z-index: 2;
+    color: #80D4FF;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.activites{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.activities:hover{
+    color: #6D3EB3;
+}
+

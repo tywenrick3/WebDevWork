@@ -1,0 +1,51 @@
+.allPlaces{
+    display: grid;
+	grid-template-columns: repeat(3, 20vw);
+	grid-template-rows: repeat(2, 20vw);
+    grid-gap: 1vw;
+    justify-content: space-between;
+    margin-left: 20vw;
+    margin-top: 5vh;
+}
+
+.place img{
+    width: 20vw;
+}
+
+.place img {
+    width: 20vw;
+    padding: .1vw;
+}
+  
+.container{
+    position: relative;
+    width: 50%;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: #80D4FF;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 20vw;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+}
