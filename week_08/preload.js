@@ -1,14 +1,19 @@
-//pre load all the images on the page so it doesnt fill them onto the screen as they load
-let images = new Array();
+//help from:
+//https://stackoverflow.com/questions/3646036/preloading-images-with-javascript
 
-function preLoadImages(){
-    for(let i = 0; i < preLoadImages.arguments.length; i++){
+let images = [];
+function preload() {
+    for (let i = 0; i < arguments.length; i++) {
         images[i] = new Image();
-        images[i].src = preLoadImages.arguments[i];
+        images[i].src = preload.arguments[i];
     }
 }
 
-preLoadImages();
-
-//help from:
-//https://www.webhostingsecretrevealed.net/blog/featured-articles/15-cool-javascript-sample-snippets/
+preload(
+    "assets/Greece.jpg",
+    "assets/Hokkaido.jpg",
+    "assets/Mentawai.jpg",
+    "assets/Patagonia.jpg",
+    "assets/Pipeline.jpg",
+    "assets/SwissAlps.jpg"
+)
