@@ -1,0 +1,22 @@
+
+button {
+    margin-top: 50vh;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 16px 32px;
+    border: none;
+    background-color: white;
+    color: black;
+    transition-duration: .4s;
+}
+
+button:hover{
+    background-color: grey;
+    color: white;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
