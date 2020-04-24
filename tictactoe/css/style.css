@@ -37,6 +37,7 @@ h2{
 #gameBoard li:hover{
     cursor: pointer;
     background: black;
+    transition-duration: 0.3s;
 }
 
 #resetGame{
@@ -49,10 +50,14 @@ h2{
 
 .o{
     color: green !important;
+    font-size: 50px;
+    text-align: center;
 }
 
 .x{
     color: red !important;
+    font-size: 50px;
+    text-align: center;
 }
 
 footer{
@@ -70,4 +75,5 @@ button{
     cursor: pointer;
     background: blue;
     color: black;
+    transition-duration: 0.3s;
 }
