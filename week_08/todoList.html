@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" type="image/png" href="assets/SunIcon.png"/>
     <script src="preLoad.js" defer></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
 </head>
 
 <body>
@@ -26,10 +33,6 @@
                         <li><a href="todoList.html" class="link">Todo List</a></li>
                         
                     </ul>
-                    <!-- <form>
-                        <input type="search" name="q" placeholder="Search query">
-                        <input type="submit" value="Go!">
-                    </form> -->
                     </div>
                 </nav>
             </div>
@@ -37,10 +40,20 @@
 
         <div class="main">
             <div class="wrapper">
-                <div class="content">
-                    <h3 class="aboutHeader">About</h3>
-                        <p class="aboutContent">Life List Is my (Ty’s) personal bucket list website. A place for me to easily organize the things I want to do and accomplish in my life. An easy way to orient myself when times get difficult and complicated. One day I want to turn the site into a social page, where others can share their own “Life lists” in order to discover, compare and congratulate others on the things that are important to them.</p>
+               
+                <div class="container">
+                    <input type="text" class="txtb" placeholder="Add a task">
+                    <div class="notcomp">
+                        <h3>Not Completed</h3>
+                    </div>
+            
+                    <div class="comp">
+                        <h3>Completed</h3>
+                    </div>
                 </div>
+            
+                <script src="js/app.js"></script>
+
                 <div class="sidebar"></div>
             </div>
         </div>

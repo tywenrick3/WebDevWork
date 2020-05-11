@@ -1,3 +1,4 @@
+
 //help from:
 //https://stackoverflow.com/questions/3646036/preloading-images-with-javascript
 
@@ -9,6 +10,9 @@ function preload() {
     }
 }
 
+
+
+
 preload(
     "assets/Greece.jpg",
     "assets/Hokkaido.jpg",
@@ -17,3 +21,4 @@ preload(
     "assets/Pipeline.jpg",
     "assets/SwissAlps.jpg"
 )
+
